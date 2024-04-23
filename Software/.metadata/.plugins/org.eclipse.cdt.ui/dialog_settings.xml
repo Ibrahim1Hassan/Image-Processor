@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="outline_presenter_bounds">
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="227191" key="searchFlags"/>
+		<item value="false" key="caseSensitive"/>
+		<list key="previousPatterns">
+			<item value="name_list"/>
+			<item value="inverse"/>
+			<item value="buf"/>
+			<item value="rever"/>
+			<item value="rotate"/>
+			<item value="mirr"/>
+			<item value="rota"/>
+			<item value="invert"/>
+			<item value="buffer_ptrs"/>
+			<item value="alt_video_frame"/>
+		</list>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item value="1278" key="size.width"/>
+		<item value="397" key="size.height"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+</section>

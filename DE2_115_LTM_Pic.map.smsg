@@ -1,0 +1,7 @@
+Warning (10236): Verilog HDL Implicit Net warning at DE2_115_LTM_Pic.v(492): created implicit net for "adc_busy"
+Warning (10236): Verilog HDL Implicit Net warning at DE2_115_LTM_Pic.v(552): created implicit net for "SCEN"
+Warning (10236): Verilog HDL Implicit Net warning at DE2_115_LTM_Pic.v(625): created implicit net for "action"
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(313): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(323): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(333): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(677): conditional expression evaluates to a constant

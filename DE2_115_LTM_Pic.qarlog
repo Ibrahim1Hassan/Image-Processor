@@ -1,0 +1,74 @@
+Quartus II Archive log --	D:/Assignment/DE2_115_LCD/sgdma.qarlog
+
+Archive:	D:/Assignment/DE2_115_LCD/sgdma.qar
+Date:		Tue Jul 13 17:37:54 2010
+Quartus II		9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+
+	=========== Files Selected: ===========
+C:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_altpll/altera_avalon_altpll_hw.tcl
+C:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc
+C:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter_hw.tcl
+C:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator_hw.tcl
+D:/Assignment/DE2_115_LCD/altpll.v
+D:/Assignment/DE2_115_LCD/cpu.ocp
+D:/Assignment/DE2_115_LCD/cpu.sdc
+D:/Assignment/DE2_115_LCD/cpu.v
+D:/Assignment/DE2_115_LCD/cpu_bht_ram.mif
+D:/Assignment/DE2_115_LCD/cpu_dc_tag_ram.mif
+D:/Assignment/DE2_115_LCD/cpu_ic_tag_ram.mif
+D:/Assignment/DE2_115_LCD/cpu_jtag_debug_module_sysclk.v
+D:/Assignment/DE2_115_LCD/cpu_jtag_debug_module_tck.v
+D:/Assignment/DE2_115_LCD/cpu_jtag_debug_module_wrapper.v
+D:/Assignment/DE2_115_LCD/cpu_mult_cell.v
+D:/Assignment/DE2_115_LCD/cpu_oci_test_bench.v
+D:/Assignment/DE2_115_LCD/cpu_ociram_default_contents.mif
+D:/Assignment/DE2_115_LCD/cpu_rf_ram_a.mif
+D:/Assignment/DE2_115_LCD/cpu_rf_ram_b.mif
+D:/Assignment/DE2_115_LCD/cpu_test_bench.v
+D:/Assignment/DE2_115_LCD/fifo.v
+D:/Assignment/DE2_115_LCD/fifo_to_pixel_converter.v
+D:/Assignment/DE2_115_LCD/fifo_to_pixel_converter_fifo.v
+D:/Assignment/DE2_115_LCD/ip/SD_Card_Controller_SPI/sd_controller.v
+D:/Assignment/DE2_115_LCD/ip/SD_Card_Controller_SPI/sd_controller_hw.tcl
+D:/Assignment/DE2_115_LCD/ip/SD_Card_Controller_SPI/sd_controller_sw.tcl
+D:/Assignment/DE2_115_LCD/ip/SD_Card_Controller_SPI/sd_data_ram.v
+D:/Assignment/DE2_115_LCD/jtag_uart.v
+D:/Assignment/DE2_115_LCD/lcd_i2c_en.v
+D:/Assignment/DE2_115_LCD/lcd_i2c_scl.v
+D:/Assignment/DE2_115_LCD/lcd_i2c_sda.v
+D:/Assignment/DE2_115_LCD/nios_simple.qip
+D:/Assignment/DE2_115_LCD/nios_simple.sopc
+D:/Assignment/DE2_115_LCD/nios_simple.v
+D:/Assignment/DE2_115_LCD/nios_simple_clock_0.v
+D:/Assignment/DE2_115_LCD/peripheral_bridge.v
+D:/Assignment/DE2_115_LCD/pixel_converter.v
+D:/Assignment/DE2_115_LCD/pll.sdc
+D:/Assignment/DE2_115_LCD/sd_card_controller.v
+D:/Assignment/DE2_115_LCD/sdram.v
+D:/Assignment/DE2_115_LCD/sgdma.SDC
+D:/Assignment/DE2_115_LCD/sgdma.dpf
+D:/Assignment/DE2_115_LCD/sgdma.qpf
+D:/Assignment/DE2_115_LCD/sgdma.qsf
+D:/Assignment/DE2_115_LCD/sgdma.v
+D:/Assignment/DE2_115_LCD/sgdma_assignment_defaults.qdf
+D:/Assignment/DE2_115_LCD/sgdma_pixel.v
+D:/Assignment/DE2_115_LCD/sopc_add_qip_file.tcl
+D:/Assignment/DE2_115_LCD/sysid.v
+D:/Assignment/DE2_115_LCD/timing_adapter.v
+D:/Assignment/DE2_115_LCD/video_sync_generator.v
+D:/Codes/sopc/sgdma/cpu.sdc
+D:/Codes/sopc/sgdma/nios_simple.sopc
+D:/Codes/sopc/sgdma/pll.sdc
+D:/Codes/sopc/sgdma/sgdma.SDC
+D:/Codes/sopc/sgdma/sgdma.dpf
+D:/Codes/sopc/sgdma/sopc_add_qip_file.tcl
+c:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_altpll/altera_avalon_altpll_hw.tcl
+c:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc
+c:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter.v
+c:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter_hw.tcl
+c:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator.v
+c:/altera/91/ip/altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator_hw.tcl
+	======= Total: 63 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

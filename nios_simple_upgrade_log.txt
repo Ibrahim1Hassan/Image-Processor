@@ -1,0 +1,48 @@
+Info: Upgrading System to Qsys
+Debug: Transform: PipelineBridgeSwap
+Info: pipeline_bridge_swap_transform: After transform: 25 modules, 64 connections
+Debug: Transform: ClockCrossingBridgeSwap
+Debug: Transform: QsysBetaIPSwap
+Debug: Transform: TristateConduitUpgradeTransform
+Info: tristate_conduit_upgrade_transform: After transform: 26 modules, 66 connections
+Debug: Transform: ResetUpgradeTransform
+Info: reset_upgrade_transform: After transform: 26 modules, 121 connections
+Debug: Transform: BorderUpgradeTransform
+Info: border_upgrade_transform: After transform: 29 modules, 123 connections
+Info: Info: *******************************************************************
+Info: Info: Running Quartus II 32-bit Shell
+Info:     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Info:     Info: Copyright (C) 1991-2013 Altera Corporation. All rights reserved.
+Info:     Info: Your use of Altera Corporation's design tools, logic functions 
+Info:     Info: and other software and tools, and its AMPP partner logic 
+Info:     Info: functions, and any output files from any of the foregoing 
+Info:     Info: (including device programming or simulation files), and any 
+Info:     Info: associated documentation or information are expressly subject 
+Info:     Info: to the terms and conditions of the Altera Program License 
+Info:     Info: Subscription Agreement, Altera MegaCore Function License 
+Info:     Info: Agreement, or other applicable license agreement, including, 
+Info:     Info: without limitation, that your use is for the sole purpose of 
+Info:     Info: programming logic devices manufactured by Altera and sold by 
+Info:     Info: Altera or its authorized distributors.  Please refer to the 
+Info:     Info: applicable agreement for further details.
+Info:     Info: Processing started: Fri Mar 29 14:48:53 2024
+Info: Info: Command: quartus_sh -t sopc_qsys_upgrade.tcl
+Info: Info (125069): Default assignment values were changed in the current version of the Quartus II software -- changes to default assignments values are contained in file c:/altera/13.0sp1/quartus/bin/assignment_defaults.qdf
+Info: QSF file C:\Users\HEMA\Desktop\HARDGAME\versuchwithsdddnewwwwww\DE2_115_LTM_Pic\DE2_115_LTM_Pic.qsf altered
+Info: File cpu.sdc moved to nios_simple_backup/cpu.sdc
+Info: File cpu.ocp moved to nios_simple_backup/cpu.ocp
+Info: File pll.v moved to nios_simple_backup/pll.v
+Info: File pixel_converter.v moved to nios_simple_backup/pixel_converter.v
+Info: File video_sync_generator.v moved to nios_simple_backup/video_sync_generator.v
+Info: File sd_card_controller.v moved to nios_simple_backup/sd_card_controller.v
+Info: File sram.v moved to nios_simple_backup/sram.v
+Info: File nios_simple.bsf moved to nios_simple_backup/nios_simple.bsf
+Info: File nios_simple.html moved to nios_simple_backup/nios_simple.html
+Info: File nios_simple.ptf moved to nios_simple_backup/nios_simple.ptf
+Info: File nios_simple.ptf.8.0 moved to nios_simple_backup/nios_simple.ptf.8.0
+Info: File nios_simple.ptf.pre_generation_ptf moved to nios_simple_backup/nios_simple.ptf.pre_generation_ptf
+Info: File nios_simple.qip moved to nios_simple_backup/nios_simple.qip
+Info: File nios_simple.sopc moved to nios_simple_backup/nios_simple.sopc
+Info: File nios_simple.sopcinfo moved to nios_simple_backup/nios_simple.sopcinfo
+Info: File nios_simple.v moved to nios_simple_backup/nios_simple.v
+Info: SOPC to Qsys Upgrade Done

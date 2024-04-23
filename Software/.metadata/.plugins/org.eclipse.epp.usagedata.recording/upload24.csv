@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.specification.version,sysinfo,,,"1.0",1299051959953
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1299051959953
+java.vm.version,sysinfo,,,"14.0-b16",1299051959953
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051964015
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051966703
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1299051967312
+started,bundle,com.altera.sbtgui.core,10.1.0.153,"com.altera.sbtgui.core",1299051970640
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1299051970703
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051982750
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299052077531
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1299052085500
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1299052092046
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1299052096125
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1299052102062
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299052108671
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1299052110296
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299052111140
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299052114515
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299052115609
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299052115718
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1299052115859
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1299052115859
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1299052115906
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1299052115906
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1299052115906

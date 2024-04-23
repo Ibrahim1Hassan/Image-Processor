@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.nj.launch.FlashLaunch">
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_FILENAME" value="E:\SVN\LTM\trunk\cd\Demonstration\DE2_115\DE2_115_LTM_Pic\DE2_115_LTM_Pic.sof"/>
+<booleanAttribute key="com.altera.nj.launch.VALIDATE_HW_SYSID" value="true"/>
+<intAttribute key="com.altera.nj.launch.DEBUG_TARGET" value="1"/>
+<intAttribute key="com.altera.nj.launch.DEVICE_INDEX" value="-1"/>
+<stringAttribute key="com.altera.nj.launch.PTF_CPU" value="cpu"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_OFFSET" value="0x0"/>
+<stringAttribute key="com.altera.nj.launch.DOWNLOAD_ARGS" value=""/>
+<stringAttribute key="com.altera.nj.launch.CABLE_NAME" value="automatic"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_MEMORY_61" value="cfi_flash"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_OFFSET" value="0x0"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_MEMORY_60" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/DE2_115_LTM_Pic.elf"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_FILENAME" value=""/>
+<stringAttribute key="com.altera.nj.launch.PTF_NAME" value="D:\procedure\101SP1\DE2_115_LTM_Pic\nios_simple.ptf"/>
+<stringAttribute key="com.altera.nj.launch.SOF2FLASH_ARGS" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="DE2_115_LTM_Pic"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_FLASHCONFIG_61" value="Custom"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_MEMORY" value="cfi_flash"/>
+<booleanAttribute key="com.altera.nj.launch.ACTIVE_PARALLEL" value="false"/>
+</launchConfiguration>

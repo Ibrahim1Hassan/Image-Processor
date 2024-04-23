@@ -1,0 +1,329 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : -0.547
+TNS   : -13.811
+
+Type  : Slow 1200mV 85C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 3.170
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'OSC_50[0]'
+Slack : 17.175
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 19.672
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'altera_reserved_tck'
+Slack : 45.619
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'OSC_50[0]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : -2.561
+TNS   : -149.119
+
+Type  : Slow 1200mV 85C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : -2.117
+TNS   : -153.236
+
+Type  : Slow 1200mV 85C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 5.156
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'OSC_50[0]'
+Slack : 8.154
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 48.097
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'OSC_50[0]'
+Slack : 0.516
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.935
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'altera_reserved_tck'
+Slack : 1.184
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 1.582
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 2.242
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 4.543
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 5.894
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'OSC_50[0]'
+Slack : 9.779
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 14.651
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'OSC_50[1]'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'OSC_50[2]'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.489
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 3.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'OSC_50[0]'
+Slack : 17.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 20.129
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 46.074
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'OSC_50[0]'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : -2.123
+TNS   : -121.160
+
+Type  : Slow 1200mV 0C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : -1.676
+TNS   : -119.034
+
+Type  : Slow 1200mV 0C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 5.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'OSC_50[0]'
+Slack : 8.033
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'OSC_50[0]'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.853
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 1.089
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 1.441
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 2.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 4.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 5.877
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'OSC_50[0]'
+Slack : 9.789
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 14.633
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'OSC_50[1]'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'OSC_50[2]'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.363
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 1.828
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 8.378
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'OSC_50[0]'
+Slack : 18.707
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 25.458
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 48.508
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 0.100
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'OSC_50[0]'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 7.613
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'OSC_50[0]'
+Slack : 9.120
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 49.469
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'OSC_50[0]'
+Slack : -0.022
+TNS   : -0.044
+
+Type  : Fast 1200mV 0C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.504
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 0.683
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 0.975
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[2]'
+Slack : 4.750
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[3]'
+Slack : 6.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'OSC_50[0]'
+Slack : 9.266
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'nios_simple_ins|the_pll|sd1|pll7|clk[1]'
+Slack : 14.756
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'OSC_50[1]'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'OSC_50[2]'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.302
+TNS   : 0.000
+
+------------------------------------------------------------

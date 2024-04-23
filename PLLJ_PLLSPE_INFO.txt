@@ -1,0 +1,5 @@
+PLL_Name	nios_simple:nios_simple_ins|pll:the_pll|pll_altpll_7km2:sd1|pll7
+PLLJITTER	41
+PLLSPEmax	84
+PLLSPEmin	-53
+

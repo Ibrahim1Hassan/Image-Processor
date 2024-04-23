@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.altera.sbtgui.integration,10.1.0.153,"com.altera.sbtgui.integration",1299051730390
+started,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1299051730390
+started,bundle,com.altera.sbtgui.project,10.1.0.153,"com.altera.sbtgui.project",1299051730390
+started,bundle,com.altera.systemconsole,10.1.0.153,"com.altera.systemconsole",1299051730390
+started,bundle,com.altera.utilities,10.1.0.153,"com.altera.utilities",1299051730406
+os,sysinfo,,,"win32",1299051730406
+arch,sysinfo,,,"x86",1299051730406
+ws,sysinfo,,,"win32",1299051730406
+locale,sysinfo,,,"zh_CN",1299051730406
+processors,sysinfo,,,"4",1299051730406
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1299051730406
+java.runtime.version,sysinfo,,,"1.6.0_14-b08",1299051730406
+java.specification.name,sysinfo,,,"Java Platform API Specification",1299051730406
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1299051730406
+java.specification.version,sysinfo,,,"1.6",1299051730406
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1299051730406
+java.version,sysinfo,,,"1.6.0_14",1299051730406
+java.vm.info,sysinfo,,,"mixed mode",1299051730406
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1299051730406
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1299051730406
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1299051730406
+java.vm.specification.version,sysinfo,,,"1.0",1299051730406
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1299051730406
+java.vm.version,sysinfo,,,"14.0-b16",1299051730406
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051730968

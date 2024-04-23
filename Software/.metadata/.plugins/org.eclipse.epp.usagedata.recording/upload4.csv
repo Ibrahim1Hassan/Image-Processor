@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1299051557859
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1299051557921
+started,bundle,com.altera.sbtgui.integration,10.1.0.153,"com.altera.sbtgui.integration",1299051557953
+started,bundle,com.altera.systemconsole,10.1.0.153,"com.altera.systemconsole",1299051557968
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1299051558125
+started,bundle,com.altera.utilities,10.1.0.153,"com.altera.utilities",1299051558156
+started,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1299051558765
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1299051583828
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1299051583890
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1299051584015
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051584046
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051584531
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1299051591062
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1299051592421
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1299051602921
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051613328
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051618578
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1299051618734
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1299051619421
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1299051619421
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1299051619437
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1299051619437
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1299051619437
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1299051619437
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1299051619437

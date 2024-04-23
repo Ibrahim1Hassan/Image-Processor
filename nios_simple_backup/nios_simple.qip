@@ -1,0 +1,46 @@
+# clk_ext
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# pll
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_altpll/altera_avalon_altpll_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) pll.v]
+# sdram
+# sgdma_pixel
+# fifo
+# timing_adapter
+# pixel_converter
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) pixel_converter.v]
+# video_sync_generator
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) video_sync_generator.v]
+# fifo_to_pixel_converter
+# jtag_uart
+# sysid
+# sd_card_controller
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/SD_Card_Controller_SPI/sd_controller_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/SD_Card_Controller_SPI/sd_controller.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/SD_Card_Controller_SPI/sd_data_ram.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sd_card_controller.v]
+# peripheral_bridge
+# lcd_i2c_scl
+# lcd_i2c_en
+# lcd_i2c_sda
+# tri_state_bridge_flash
+# cfi_flash
+# sys_clk_timer
+# touch_panel_spi
+# touch_panel_pen_irq_n
+# touch_panel_busy
+# descriptor_mem
+# sram
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/TERASIC_SRAM/TERASIC_SRAM_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) ip/TERASIC_SRAM/TERASIC_SRAM.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sram.v]
+# null
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID BCAEC5BC22DE0000012E7A72C2FD 
+ 

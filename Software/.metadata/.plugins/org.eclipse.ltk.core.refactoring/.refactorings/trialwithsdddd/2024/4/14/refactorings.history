@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;trialwithsdddd/tiff-4.6.0t/contrib/addtiffo/tiffconf.h.in&apos; to &apos;tiffconf.h&apos;" description="Rename resource &apos;tiffconf.h.in&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="tiff-4.6.0t/contrib/addtiffo/tiffconf.h.in" name="tiffconf.h" stamp="1712407550332" updateReferences="true"/>
+</session>

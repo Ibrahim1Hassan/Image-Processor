@@ -1,0 +1,51 @@
+	component nios_simple is
+		port (
+			tri_state_bridge_flash_data              : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- tri_state_bridge_flash_data
+			write_n_to_the_cfi_flash                 : out   std_logic_vector(0 downto 0);                     -- write_n_to_the_cfi_flash
+			select_n_to_the_cfi_flash                : out   std_logic_vector(0 downto 0);                     -- select_n_to_the_cfi_flash
+			read_n_to_the_cfi_flash                  : out   std_logic_vector(0 downto 0);                     -- read_n_to_the_cfi_flash
+			tri_state_bridge_flash_address           : out   std_logic_vector(22 downto 0);                    -- tri_state_bridge_flash_address
+			reset_n                                  : in    std_logic                     := 'X';             -- reset_n
+			clk_ext                                  : in    std_logic                     := 'X';             -- clk
+			pll_c0_out                               : out   std_logic;                                        -- clk
+			pll_c1_out                               : out   std_logic;                                        -- clk
+			pll_c2_out                               : out   std_logic;                                        -- clk
+			pll_c3_out                               : out   std_logic;                                        -- clk
+			locked_from_the_pll                      : out   std_logic;                                        -- export
+			phasedone_from_the_pll                   : out   std_logic;                                        -- export
+			zs_addr_from_the_sdram                   : out   std_logic_vector(12 downto 0);                    -- addr
+			zs_ba_from_the_sdram                     : out   std_logic_vector(1 downto 0);                     -- ba
+			zs_cas_n_from_the_sdram                  : out   std_logic;                                        -- cas_n
+			zs_cke_from_the_sdram                    : out   std_logic;                                        -- cke
+			zs_cs_n_from_the_sdram                   : out   std_logic;                                        -- cs_n
+			zs_dq_to_and_from_the_sdram              : inout std_logic_vector(31 downto 0) := (others => 'X'); -- dq
+			zs_dqm_from_the_sdram                    : out   std_logic_vector(3 downto 0);                     -- dqm
+			zs_ras_n_from_the_sdram                  : out   std_logic;                                        -- ras_n
+			zs_we_n_from_the_sdram                   : out   std_logic;                                        -- we_n
+			RGB_OUT_from_the_video_sync_generator    : out   std_logic_vector(23 downto 0);                    -- RGB_OUT
+			HD_from_the_video_sync_generator         : out   std_logic;                                        -- HD
+			VD_from_the_video_sync_generator         : out   std_logic;                                        -- VD
+			DEN_from_the_video_sync_generator        : out   std_logic;                                        -- DEN
+			spi_data_out_from_the_sd_card_controller : out   std_logic;                                        -- data_out
+			spi_data_in_to_the_sd_card_controller    : in    std_logic                     := 'X';             -- data_in
+			spi_cs_n_from_the_sd_card_controller     : out   std_logic;                                        -- cs_n
+			spi_clk_from_the_sd_card_controller      : out   std_logic;                                        -- clk
+			out_port_from_the_lcd_i2c_scl            : out   std_logic;                                        -- export
+			out_port_from_the_lcd_i2c_en             : out   std_logic;                                        -- export
+			bidir_port_to_and_from_the_lcd_i2c_sda   : inout std_logic                     := 'X';             -- export
+			MISO_to_the_touch_panel_spi              : in    std_logic                     := 'X';             -- MISO
+			MOSI_from_the_touch_panel_spi            : out   std_logic;                                        -- MOSI
+			SCLK_from_the_touch_panel_spi            : out   std_logic;                                        -- SCLK
+			SS_n_from_the_touch_panel_spi            : out   std_logic;                                        -- SS_n
+			in_port_to_the_touch_panel_pen_irq_n     : in    std_logic                     := 'X';             -- export
+			in_port_to_the_touch_panel_busy          : in    std_logic                     := 'X';             -- export
+			SRAM_DQ_to_and_from_the_sram             : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DQ
+			SRAM_ADDR_from_the_sram                  : out   std_logic_vector(19 downto 0);                    -- ADDR
+			SRAM_UB_n_from_the_sram                  : out   std_logic;                                        -- UB_n
+			SRAM_LB_n_from_the_sram                  : out   std_logic;                                        -- LB_n
+			SRAM_WE_n_from_the_sram                  : out   std_logic;                                        -- WE_n
+			SRAM_CE_n_from_the_sram                  : out   std_logic;                                        -- CE_n
+			SRAM_OE_n_from_the_sram                  : out   std_logic                                         -- OE_n
+		);
+	end component nios_simple;
+
