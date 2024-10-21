@@ -1,7 +1,8 @@
 # Image Processor System Using Altera Cyclone IV DE2-115 Board and LTM Touch Screen
 
 This project demonstrates an image processing system that reads JPG images from the SD card slot on the DE2-115 FPGA board and displays them on the TRDB_LTM touch screen. Users can interact with the touch screen to choose images for viewing, apply gray scale and edge detection filters, and navigate through images.
-![LTM Sreen](https://drive.google.com/file/d/1V2FGTDJ35kUwN3Dv0b-yMFEtGfpnSNz4/view?usp=sharing)
+
+![Screenshot 2024-10-21 180156](https://github.com/user-attachments/assets/b9d8d831-90f4-4b28-ab60-12614981d2ef)
 
 ## Project Overview
 
