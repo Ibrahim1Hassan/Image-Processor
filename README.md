@@ -22,7 +22,7 @@ This project demonstrates an image processing system that reads JPG images from 
   - **Video Pipeline**: stores the image frame data.
   - **JTAG**: Programms the FPGA, loads binary code into the softcore Nios II, and provides terminal for debugging.
   - **Nios II:** the softcore used to run the C code to control hardware components.
-  ![Block Diagram](https://drive.google.com/file/d/1wwOeUEy8g3O9797cDiqGVX8xdTCsWVWP/view?usp=sharing)
+![Screenshot 2024-10-21 180121](https://github.com/user-attachments/assets/026ec41e-fc23-4cf3-8e09-1524a89b9698)
 
 
 ## Required Hardware
@@ -42,11 +42,12 @@ This project demonstrates an image processing system that reads JPG images from 
 ### Step 1: Hardware Setup
 
 1. **Connect the Touch Screen**:  
-   - Use the 40-pin IDE cable to connect the TRDB_LTM touch screen to the DE2-115 board.  
-   ![Connection](https://drive.google.com/file/d/15-KWMSGB7QXruJ4l1eid0EK7rqD-ANo_/view?usp=sharing)
+   - Use the 40-pin IDE cable to connect the TRDB_LTM touch screen to the DE2-115 board.
+     ![Screenshot 2024-10-21 180214](https://github.com/user-attachments/assets/e966456b-8aba-41e7-8910-f70ecb85534e)
+
    - Plug one end of the cable into the touch screen and the other into the expansion port on the DE2-115 board, as shown in the image below.
-   ![Connection to board](https://drive.google.com/file/d/18oEvsJ_fILFfCKRW0ZBfLEadiW4iV36r/view?usp=sharing)
- 
+ ![Screenshot 2024-10-21 180227](https://github.com/user-attachments/assets/50126223-dc25-4a14-a1eb-ea31ac624a6f)
+
 
 2. **Prepare the SD Card**:
    - Format your SD card to **FAT16**.
@@ -64,7 +65,7 @@ This project demonstrates an image processing system that reads JPG images from 
 
 2. **Load the Bitstream**:  
    - Open **Quartus II** and load the provided bitstream file (`DE2_115_LTM_Pic.sof`).  
-   ![Programming the FPGA](https://drive.google.com/file/d/1dSyN3v4RArENFRVnidUnIeC9AdV7GMdd/view?usp=sharing)
+![Screenshot 2024-10-21 180034](https://github.com/user-attachments/assets/198efe78-90e2-42ad-a3a3-647d4bbbd3ab)
 
 ### Step 3: Running the Software
 
@@ -75,20 +76,24 @@ This project demonstrates an image processing system that reads JPG images from 
 2. **Run the Program**:  
    - Right-click the project in Eclipse and select **Run As** > **Nios II Hardware**.  
    - The `.elf` file will run on the Nios II softcore.
-   ![Running the binary software code](https://drive.google.com/file/d/1MPXtZFQB3rY04FMQe0ZvcDgRfpbxqaKe/view?usp=sharing)
+![Unbenannt](https://github.com/user-attachments/assets/1fef6a82-8506-4583-8a01-fad4fddab2f3)
 
 ### Step 4: Using the Touch Screen Interface
 
 1. **View Images**:  
    - The system will display images from the `/jpg` directory on the SD card.  
    - Use the touch screen to **browse through the images**.
-   ![Main Menu](https://drive.google.com/file/d/1oq2XEvLVeduFq5ClWynsTx752hwpRqUJ/view?usp=sharing)
+![Screenshot 2024-10-21 181108](https://github.com/user-attachments/assets/5581d538-04a6-4da3-9b54-9562911fca64)
+
+![Screenshot 2024-10-21 181131](https://github.com/user-attachments/assets/29e10fc7-c3c0-43d4-a98e-d86db26e68f8)
 
 2. **Apply Filters**:  
    - Touch the screen once to apply a **grayscale filter** to the current image.
-   ![Gray Filter](https://drive.google.com/file/d/1PGlzZDyZVjIs3iW7DoVTPLJedHcEhWWy/view?usp=sharing)
+     ![Screenshot 2024-10-21 181143](https://github.com/user-attachments/assets/35527893-4a0c-44ae-b3d6-d64c2228cae8)
+
    - Touch again to apply the **edge detection filter**.
-   ![Edge Detection](https://drive.google.com/file/d/1dCWh3iZvwy4sTenTnEEWVkSTB0xFh2om/view?usp=sharing)
+     ![Screenshot 2024-10-21 181159](https://github.com/user-attachments/assets/298ea093-7dc8-41e0-a035-29c325433ba5)
+
    - A further touch will return you to the **image browser menu**.
 
 ## Notes
