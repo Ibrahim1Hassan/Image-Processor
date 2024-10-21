@@ -89,10 +89,10 @@ This project demonstrates an image processing system that reads JPG images from 
 
 2. **Apply Filters**:  
    - Touch the screen once to apply a **grayscale filter** to the current image.
-     ![Screenshot 2024-10-21 181143](https://github.com/user-attachments/assets/35527893-4a0c-44ae-b3d6-d64c2228cae8)
+  ![Screenshot 2024-10-21 181143](https://github.com/user-attachments/assets/35527893-4a0c-44ae-b3d6-d64c2228cae8)
 
    - Touch again to apply the **edge detection filter**.
-     ![Screenshot 2024-10-21 181159](https://github.com/user-attachments/assets/298ea093-7dc8-41e0-a035-29c325433ba5)
+  ![Screenshot 2024-10-21 181159](https://github.com/user-attachments/assets/298ea093-7dc8-41e0-a035-29c325433ba5)
 
    - A further touch will return you to the **image browser menu**.
 
