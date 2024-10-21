@@ -84,7 +84,6 @@ This project demonstrates an image processing system that reads JPG images from 
    - The system will display images from the `/jpg` directory on the SD card.  
    - Use the touch screen to **browse through the images**.
 ![Screenshot 2024-10-21 181108](https://github.com/user-attachments/assets/5581d538-04a6-4da3-9b54-9562911fca64)
-
 ![Screenshot 2024-10-21 181131](https://github.com/user-attachments/assets/29e10fc7-c3c0-43d4-a98e-d86db26e68f8)
 
 2. **Apply Filters**:  
