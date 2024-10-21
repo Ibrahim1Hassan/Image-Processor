@@ -98,6 +98,6 @@ This project demonstrates an image processing system that reads JPG images from 
 ## Notes
 
 - **This group project was completed as part of the technical component of the Hardware/Software Co-Development module in the Master's in Embedded Systems program at Hochschule Anhalt.**
-- For Detailed Documentation and video demonestration of the project please check the directory **Technical_Report&Demo_Video**.
+- For Detailed Documentation and video demonestration of the project please check the directory (`Technical_Report&Demo_Video`).
 - Ensure that the SD card is properly formatted and contains images in the correct format (`.jpg`).
 - For best performance, use 800x480 resolution images or multiples of this size.
